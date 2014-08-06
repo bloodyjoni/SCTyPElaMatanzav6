@@ -1,0 +1,22 @@
+
+#divtempl{
+	
+}
+#imgtempl {
+	/*height:25%;*/
+	width:50%;
+	float:left;
+	margin-right:5%;
+}
+#spantempl{
+	
+}
+#cleartempl{
+	clear:both;
+}
+.thumb{
+	/*margin:5px 5px 5px 5px;*/
+	height:36px;
+	width:36px;
+	float:left;
+}

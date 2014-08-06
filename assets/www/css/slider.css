@@ -1,0 +1,35 @@
+#pagecontent {
+    text-align:center;
+}
+ 
+.gallerycontent a img {
+    height:80px;
+    width:80px;
+    padding:3px;
+    background-color:#222;
+}
+#imgshow{
+	height:100%;
+	width:auto;
+} 
+#prevbtn, #nextbtn {
+   /* margin:10px 15px;*/
+  
+}
+#Sliderfooter{
+text-align:center;
+width:100%;
+text-align:center;
+vertical-align:middle;
+}
+#dialogcontent{
+ 	width: 70%;
+	heigth: 35%;
+	float: left;
+
+}
+.sliderBtnDiv{
+float:left;
+width:15%;
+padding-top:25%;
+}

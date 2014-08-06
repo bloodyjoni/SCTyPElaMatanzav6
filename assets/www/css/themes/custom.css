@@ -1,0 +1,114 @@
+#headerPage{
+  background-image: url(images/headerapp.png);
+    background-repeat:no-repeat;
+  /*  background-position:100% 120px, 100% -120px;*/
+    background-size:contain;
+
+}
+.headerBtn{
+    float: right !important;
+    margin-right: 5px!important;
+}
+.ui-custom-content{
+height:70%;
+padding:0;
+
+}
+.ui-bar-custom-footer{
+	height:10%;
+
+}
+.ui-custom-title{
+	margin:0.6em 0 0.8em !important;
+}/*
+.ui-custom-btn-inner{
+height:70%;
+}
+.ui-custom-icon{
+top:50%;
+}*/
+
+h4{
+	vertical-align:middle;
+		
+}/*
+#headerLeft{
+	width:20%;
+	float:left !important;
+height:100%;
+	margin:0 0;
+
+}
+#headerCenter{
+	width:50%;
+	margin-left:5%;
+	margin-right:5%;
+	float:left !important;
+	height:100%;
+}
+#headerRight{
+	width:20%;
+	float:left !important;
+height:100%;
+	margin:0 0;
+	
+}*/
+/*
+.custom-btn-header-left{
+margin: auto;
+line-height:50%;
+text-align:center;
+}*/
+.custom-btn-footer{
+height:100%;
+margin:0;
+}
+.divclear{
+clear:both;
+}
+#EventosSlideshowContent{
+width:100%;
+height:52.5%;
+/*margin-top:2.5%; No funciona con la generacion dynamica de la ultima noticia cambie para margin-bottom en UltimaNoticia Content*/
+text-align:center;
+}
+#EventosSlideshowContentHeader{
+	width:70%;
+	margin:0% 15%;
+}
+#UltimaNoticiaContent{
+width:100%;
+margin:2.5% 0 7.5% 0;
+height:12.5%;
+text-align:center;
+}
+#UltimaNoticiaContentHeader{
+	margin:0;
+	/*background-color:rgb(4, 134, 228);*/
+
+}
+#UltimaNoticia{
+	margin:0;
+	
+}
+#linkHome{
+	height:100%;
+	width:50%;
+}
+
+.ui-icon-scytype-facebook {
+	background-image: url("images/custom-png/facebook-icon.png");
+	
+	background-size: 18px 18px;
+}
+.ui-icon-scytype-twitter {
+	background-image: url("images/custom-png/twitter-icon.png");
+	background-size: 18px 18px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	.ui-icon-myapp-email {
+		background-image: url("app-icon-email-highres.png");
+		background-size: 18px 18px;
+	}
+	...more HD icon rules go here...
+}
